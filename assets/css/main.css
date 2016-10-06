@@ -125,7 +125,7 @@ a, a:hover, a:visited, a:active, a:link{
 	    font-family: 'Oswald', sans-serif;
 	    font-size: 5.5em;
 	    text-align: center;
-	    color: blue;
+	    color: white;
 	}
 
 	.hello_profil{
@@ -266,7 +266,6 @@ a, a:hover, a:visited, a:active, a:link{
 	background-size: 32px 32px;
 }
 
-
 .slide_00{
 	-webkit-transform: translate(0%,-10%);
 	-ms-transform: translate(0%,-10%);
@@ -280,7 +279,6 @@ a, a:hover, a:visited, a:active, a:link{
     text-align: center;
     color: white;
 }
-
 
 .photo_preview_grid{
 	margin-top: 15vh;
