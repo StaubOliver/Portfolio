@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolio">
     <head>
         <title>Olivier Staub</title>
         <meta charset="utf-8">
@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
+        <!--AnuglarJS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
         <!-- Google font-->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
@@ -28,36 +30,55 @@
         <!--JS-->
         <script src="assets/js/vendors/scrolloverflow.min.js"></script>
         <script src="assets/js/jquery.fullPage.js"></script>
+        <script src="assets/js/data.js"></script>
         <script src="assets/js/main.js"></script>
 
     </head>
 
-    <body>
+    <body ng-controller="content">
 
 
         <div id="header" class="header">
 
+            <!-- Section 1 -->
             <div class="navlink navlink_active" id="navlink_hello">   
                 <a class="" href="#Hello">
-                    Home
+                    Olivier Staub
                 </a>
             </div>
 
+            <!-- Section 2 -->
             <div class="navlink" id="navlink_architecture">   
-                <a class="" href="#Architecture/architecture_00">
+                <a class="" href="#architecture/architecture_00">
                     Architecture
                 </a>
             </div>
 
+            <!-- Section 3 -->
              <div class="navlink" id="navlink_portrait">  
                 <a class="" href="#portrait/portrait_00">
                     Portrait
                 </a>
             </div>
 
+            <!-- Section 4 -->
+            <div class="navlink" id="navlink_paysage">  
+                <a class="" href="#paysage/paysage_00">
+                    Paysage
+                </a>
+            </div>
+
+            <!-- Section 5 -->
             <div class="navlink" id="navlink_street">  
                 <a class="" href="#street/street_00">
                     Street
+                </a>
+            </div>
+
+            <!-- Section  -->
+            <div class="navlink" id="navlink_divers">  
+                <a class="" href="#divers/divers_00">
+                    Divers
                 </a>
             </div>
 
@@ -102,7 +123,7 @@
                         <div class="footer_icon" id="icon_flickr" alt="Flickr"></div>
                     </a>
 
-                    <a class="footer_link" href="Instagram.com" target="#">
+                    <a class="footer_link" href="https://www.instagram.com/staub.olivier/" target="#">
                         <div class="footer_icon" id="icon_instagram" alt="Instagram"></div>
                     </a>
 
@@ -112,7 +133,7 @@
             </div>
 
 
-            <div class="section" id="section_architecture" data-anchor="Architecture">
+            <div class="section" id="section_architecture" data-anchor="architecture">
 
                 <div class="slide slide_00" id="architecture_00" data-anchor="architecture_00">
                     <div class='section_title'>
@@ -124,40 +145,40 @@
                         <div class="row">
 
                             <div class="cell col-md-2 col-sm-2 col-xs-6">
-                                <a href="#Architecture/architecture_01">
+                                <a href="#architecture/architecture_01">
                                     <img class="photo_preview" src="assets/img/architecture/01.jpg">
                                 </a>
 
                             </div>
 
                             <div class="cell col-md-2 col-sm-2 col-xs-6">
-                                <a href="#Architecture/architecture_02">
+                                <a href="#architecture/architecture_02">
                                     <img class="photo_preview" src="assets/img/architecture/02.jpg">
                                 </a>
                             </div>
 
                             <div class="cell col-md-2 col-sm-2 col-xs-6">
-                                <a href="#Architecture/architecture_03">
+                                <a href="#architecture/architecture_03">
                                     <img class="photo_preview" src="assets/img/architecture/03.jpg">
                                 </a>
 
                             </div>
 
                             <div class="cell col-md-2 col-sm-2 col-xs-6">
-                                <a href="#Architecture/architecture_04">
+                                <a href="#architecture/architecture_04">
                                     <img class="photo_preview" src="assets/img/architecture/04.jpg">
                                 </a>
                             </div>
 
                             <div class="cell col-md-2 col-sm-2 col-xs-6">
-                                <a href="#Architecture/architecture_05">
+                                <a href="#architecture/architecture_05">
                                     <img class="photo_preview" src="assets/img/architecture/05.jpg">
                                 </a>
 
                             </div>
 
                             <div class="cell col-md-2 col-sm-2 col-xs-6">
-                                <a href="#Architecture/architecture_06">
+                                <a href="#architecture/architecture_06">
                                     <img class="photo_preview" src="assets/img/architecture/06.jpg">
                                 </a>
                             </div>
@@ -165,8 +186,6 @@
                         </div>
 
                     </div>
-
-
                 </div>
 
                 <div class="slide" id="architecture_01" data-anchor="architecture_01">
@@ -195,7 +214,7 @@
 
             </div>
 
-             <div class="section" id="section_portrait" data-anchor="portrait">
+            <div class="section" id="section_portrait" data-anchor="portrait">
 
                 <div class="slide slide_00" id="portrait_00" data-anchor="portrait_00">
                     <div class='section_title'>PORTRAIT</div>
@@ -204,40 +223,40 @@
 
                         <div class="row">
 
-                            <div class="col-md-2 col-sm-2 col-xs-6">
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
                                 <a href="#portrait/portrait_01">
                                     <img class="photo_preview" src="assets/img/portrait/01.jpg">
                                 </a>
 
                             </div>
 
-                            <div class="col-md-2 col-sm-2 col-xs-6">
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
                                 <a href="#portrait/portrait_02">
                                     <img class="photo_preview" src="assets/img/portrait/02.jpg">
                                 </a>
                             </div>
 
-                            <div class="col-md-2 col-sm-2 col-xs-6">
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
                                 <a href="#portrait/portrait_03">
                                     <img class="photo_preview" src="assets/img/portrait/03.jpg">
                                 </a>
 
                             </div>
 
-                            <div class="col-md-2 col-sm-2 col-xs-6">
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
                                 <a href="#portrait/portrait_04">
                                     <img class="photo_preview" src="assets/img/portrait/04.jpg">
                                 </a>
                             </div>
 
-                            <div class="col-md-2 col-sm-2 col-xs-6">
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
                                 <a href="#portrait/portrait_05">
                                     <img class="photo_preview" src="assets/img/portrait/05.jpg">
                                 </a>
 
                             </div>
 
-                            <div class="col-md-2 col-sm-2 col-xs-6">
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
                                 <a href="#portrait/portrait_06">
                                     <img class="photo_preview" src="assets/img/portrait/06.jpg">
                                 </a>
@@ -276,6 +295,86 @@
 
             </div>
 
+            <div class="section" id="section_paysage" data-anchor="paysage">
+
+                <div class="slide slide_00" id="paysage_00" data-anchor="paysage_00">
+                    <div class='section_title'>PAYSAGE</div>
+
+                    <div class="photo_preview_grid">
+
+                        <div class="row">
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#paysage/paysage_01">
+                                    <img class="photo_preview" src="assets/img/paysage/01.jpg">
+                                </a>
+
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#paysage/paysage_02">
+                                    <img class="photo_preview" src="assets/img/paysage/02.jpg">
+                                </a>
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#paysage/paysage_03">
+                                    <img class="photo_preview" src="assets/img/paysage/03.jpg">
+                                </a>
+
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#paysage/paysage_04">
+                                    <img class="photo_preview" src="assets/img/paysage/04.jpg">
+                                </a>
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#paysage/paysage_05">
+                                    <img class="photo_preview" src="assets/img/paysage/05.jpg">
+                                </a>
+
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#paysage/paysage_06">
+                                    <img class="photo_preview" src="assets/img/paysage/06.jpg">
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="slide" id="paysage_01" data-anchor="paysage_01">
+                    <img class="photo" src="assets/img/paysage/01.jpg">
+                </div>
+
+                <div class="slide" id="paysage_02" data-anchor="paysage_02">
+                    <img class="photo" src="assets/img/paysage/02.jpg">
+                </div>
+
+                <div class="slide" id="paysage_03" data-anchor="paysage_03">
+                    <img class="photo" src="assets/img/paysage/03.jpg">
+                </div>
+
+                <div class="slide" id="paysage_04" data-anchor="paysage_04">
+                    <img class="photo" src="assets/img/paysage/04.jpg">
+                </div>
+
+                <div class="slide" id="paysage_05" data-anchor="paysage_05">
+                    <img class="photo" src="assets/img/paysage/05.jpg">
+                </div>
+
+                <div class="slide" id="paysage_06" data-anchor="paysage_06">
+                    <img class="photo" src="assets/img/paysage/06.jpg">
+                </div>
+
+            </div>
 
             <div class="section" id="section_street" data-anchor="street">
 
@@ -356,10 +455,84 @@
 
             </div>
 
+            <div class="section" id="section_divers" data-anchor="divers">
 
+                <div class="slide slide_00" id="divers_00" data-anchor="divers_00">
+                    <div class='section_title'>DIVERS</div>
 
+                    <div class="photo_preview_grid">
 
+                        <div class="row">
 
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#divers/divers_01">
+                                    <img class="photo_preview" src="assets/img/divers/01.jpg">
+                                </a>
+
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#divers/divers_02">
+                                    <img class="photo_preview" src="assets/img/divers/02.jpg">
+                                </a>
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#divers/divers_03">
+                                    <img class="photo_preview" src="assets/img/divers/03.jpg">
+                                </a>
+
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#divers/divers_04">
+                                    <img class="photo_preview" src="assets/img/divers/04.jpg">
+                                </a>
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#divers/divers_05">
+                                    <img class="photo_preview" src="assets/img/divers/05.jpg">
+                                </a>
+
+                            </div>
+
+                            <div class="cell col-md-2 col-sm-2 col-xs-6">
+                                <a href="#divers/divers_06">
+                                    <img class="photo_preview" src="assets/img/divers/06.jpg">
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slide" id="divers_01" data-anchor="divers_01">
+                    <img class="photo" src="assets/img/divers/01.jpg">
+                </div>
+
+                <div class="slide" id="divers_02" data-anchor="divers_02">
+                    <img class="photo" src="assets/img/divers/02.jpg">
+                </div>
+
+                <div class="slide" id="divers_03" data-anchor="divers_03">
+                    <img class="photo" src="assets/img/divers/03.jpg">
+                </div>
+
+                <div class="slide" id="divers_04" data-anchor="divers_04">
+                    <img class="photo" src="assets/img/divers/04.jpg">
+                </div>
+
+                <div class="slide" id="divers_05" data-anchor="divers_05">
+                    <img class="photo" src="assets/img/divers/05.jpg">
+                </div>
+
+                <div class="slide" id="divers_06" data-anchor="divers_06">
+                    <img class="photo" src="assets/img/divers/06.jpg">
+                </div>
+
+            </div>
 
             
 

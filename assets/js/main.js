@@ -6,8 +6,9 @@ function refresh(){
     $("#navlink_hello").removeClass("navlink_active");
     $("#navlink_architecture").removeClass("navlink_active");
     $("#navlink_portrait").removeClass("navlink_active");
+    $("#navlink_paysage").removeClass("navlink_active");
     $("#navlink_street").removeClass("navlink_active");
-
+    $("#navlink_divers").removeClass("navlink_active");
 
     if (currentSection == 1){
         $("#navlink_hello").addClass("navlink_active");
@@ -19,8 +20,15 @@ function refresh(){
         $("#navlink_portrait").addClass("navlink_active");
     }
     if (currentSection == 4){
+        $("#navlink_paysage").addClass("navlink_active");
+    }
+    if (currentSection == 5){
         $("#navlink_street").addClass("navlink_active");
     }
+    if (currentSection == 6){
+        $("#navlink_divers").addClass("navlink_active");
+    }
+
 }
 
 
@@ -47,7 +55,14 @@ $(document).ready(function() {
     });
 });
 
+var portfolio = angular.module("portfolio", [])
+.controller('content', function($scope, $http){
 
+    console.log(data.galeries);
+    $scope.galeries = data.galeries;
+
+
+});
 
 
 /*
