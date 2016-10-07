@@ -61,6 +61,36 @@ var data = {
 			]
 		},
 		{
+			titre: "Paysage",
+			photos: 
+			[
+				{
+					link:"assets/img/paysage/01.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/paysage/02.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/paysage/03.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/paysage/04.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/paysage/05.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/paysage/06.jpg",
+					titre:""
+				}
+			]
+		},
+		{
 			titre: "Street",
 			photos: 
 			[
@@ -86,6 +116,36 @@ var data = {
 				}, 
 				{
 					link:"assets/img/street/06.jpg",
+					titre:""
+				}
+			]
+		},
+		{
+			titre: "Divers",
+			photos: 
+			[
+				{
+					link:"assets/img/divers/01.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/divers/02.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/divers/03.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/divers/04.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/divers/05.jpg",
+					titre:""
+				}, 
+				{
+					link:"assets/img/divers/06.jpg",
 					titre:""
 				}
 			]

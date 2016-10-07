@@ -58,7 +58,6 @@ $(document).ready(function() {
 var portfolio = angular.module("portfolio", [])
 .controller('content', function($scope, $http){
 
-    console.log(data.galeries);
     $scope.galeries = data.galeries;
 
 
