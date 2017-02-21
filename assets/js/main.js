@@ -9,6 +9,7 @@ function refresh(){
     $("#navlink_paysage").removeClass("navlink_active");
     $("#navlink_street").removeClass("navlink_active");
     $("#navlink_divers").removeClass("navlink_active");
+    $("#navlink_about").removeClass("navlink_active");
 
     if (currentSection == 1){
         $("#navlink_hello").addClass("navlink_active");
@@ -27,6 +28,9 @@ function refresh(){
     }
     if (currentSection == 6){
         $("#navlink_divers").addClass("navlink_active");
+    }
+    if (currentSection == 7){
+        $("#navlink_about").addClass("navlink_active");
     }
 
 }
