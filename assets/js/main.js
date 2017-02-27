@@ -71,6 +71,7 @@ $(document).ready(function() {
         fixedElements: '#header',
         verticalCentered: true, 
         scrollOverflow: true,
+
         scrollingSpeed: '0',
         animateAnchor:'false',
         slidesNavigation: true,
@@ -88,7 +89,8 @@ $(document).ready(function() {
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
             console.log(nextSlideIndex);
         }, 
-        lazyloading:'true'
+        lazyloading:'true',
+        touchSensitity:'15'
     });
 
     
