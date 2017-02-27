@@ -90,7 +90,7 @@ $(document).ready(function() {
             console.log(nextSlideIndex);
         }, 
         lazyloading:'true',
-        touchSensitity:'15'
+        touchSensitity:'100'
     });
 
     
