@@ -72,6 +72,7 @@ $(document).ready(function() {
         verticalCentered: true, 
         scrollOverflow: true,
         scrollingSpeed: '0',
+        animateAnchor:'false',
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
         onLeave: function(index, nextIndex, direction){
@@ -100,6 +101,8 @@ $(window).resize(function() {
 
 });
 
+/*
+
 var portfolio = angular.module("portfolio", [])
 .controller('content', function($scope, $http){
 
@@ -109,7 +112,7 @@ var portfolio = angular.module("portfolio", [])
 });
 
 
-
+*/
 
 
 /*
