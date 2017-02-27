@@ -12,10 +12,14 @@ p{
 }
 
 a, a:hover, a:visited, a:active, a:link{
-	/*
+	
 	color:white;
-	*/
+	
 	text-decoration: none;
+}
+
+.navlink_active {
+	color: white !important;
 }
 
 
@@ -37,9 +41,13 @@ a, a:hover, a:visited, a:active, a:link{
 	.nav_separator{
 		font-family: 'Open Sans', sans-serif;
 		vertical-align: middle;
-		font-size: 2.5em;
+		font-size: 1.5em;
 		display: inline-block;
 		color:white;
+	}
+	
+	.nav_icon{
+		display: none;
 	}
 
 	.navlink_full{
@@ -120,6 +128,16 @@ a, a:hover, a:visited, a:active, a:link{
 		font-size: 1.5em;
 		display: inline-block;
 		color:white;
+	}
+
+	.nav_icon{
+		display: inline-block;
+		text-align: right;
+		float:right;
+		height:32px;
+		width:32px;
+		margin-right: 10px;
+		margin-top: 9px;
 	}
 
 	.link_navbar{
@@ -218,6 +236,16 @@ a, a:hover, a:visited, a:active, a:link{
 		color:white;
 	}
 
+	.nav_icon{
+		display: inline-block;
+		text-align: right;
+		float:right;
+		height:32px;
+		width:32px;
+		margin-right: 10px;
+		margin-top: 9px;
+	}
+
 	.home_link{
 		line-height: 15vh;
 		vertical-align: middle;
@@ -287,6 +315,16 @@ a, a:hover, a:visited, a:active, a:link{
 		display: none;
 	}
 
+	.nav_icon{
+		display: inline-block;
+		text-align: right;
+		float:right;
+		height:32px;
+		width:32px;
+		margin-right: 10px;
+		margin-top: 9px;
+	}
+
 	.home_link{
 		line-height: 15vh;
 		vertical-align: middle;
@@ -351,15 +389,7 @@ a, a:hover, a:visited, a:active, a:link{
 	border-bottom-color: #fff;
 }
 
-.nav_icon{
-	display: inline-block;
-	text-align: right;
-	float:right;
-	height:32px;
-	width:32px;
-	margin-right: 10px;
-	margin-top: 9px;
-}
+
 
 .section{
 	text-align: center;
