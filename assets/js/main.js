@@ -71,6 +71,7 @@ $(document).ready(function() {
         fixedElements: '#header',
         verticalCentered: true, 
         scrollOverflow: true,
+        scrollingSpeed: '0',
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
         onLeave: function(index, nextIndex, direction){
