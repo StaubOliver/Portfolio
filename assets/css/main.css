@@ -12,9 +12,9 @@ p{
 }
 
 a, a:hover, a:visited, a:active, a:link{
-	
+	/*
 	color:white;
-	
+	*/
 	text-decoration: none;
 }
 
