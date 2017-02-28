@@ -102,20 +102,25 @@ a, a:hover, a:visited, a:active, a:link{
 
 
 	.hello_title{
-	    margin-top:25px;
+	    margin-top:15px;
+	    margin-left:10px;
 	    font-family: 'Oswald', sans-serif;
-	    font-size: 2em;
-	    text-align: center;
+	    font-size: 4em;
+	    text-align: left;
 	    color: white;
+	    vertical-align: middle;
+	    line-height: 15vh;
 	}
 
 	.hello_profil{
-	    margin-top:80px;
+	    margin-top:15px;
+	    margin-right: 10px;
 	    margin-left: auto;
 	    margin-right: auto;
-	    text-align: center;
+	    float: right;
 	    height: auto;
-	    width: 18vh;
+	    width: 15vh;
+	    line-height: 15vh;
 	}
 
 	.header{
@@ -222,11 +227,12 @@ a, a:hover, a:visited, a:active, a:link{
 	    color: white;
 	    line-height: 18vh;
 	    vertical-align: middle;
+	    margin-left: 10px;
 	}
 
 	.hello_profil{
 		margin-top: 25px;
-	    
+	    margin-right: 10px;
 	    height: auto;
 	    width: 18vh;
 	    line-height: 18vh;
@@ -309,7 +315,7 @@ a, a:hover, a:visited, a:active, a:link{
 
 
 	.hello_title{
-	    margin-top:25px;
+	    margin-top:0px;
 	    font-family: 'Oswald', sans-serif;
 	    font-size: 5.5em;
 	    text-align: center;
@@ -317,13 +323,16 @@ a, a:hover, a:visited, a:active, a:link{
 	}
 
 	.hello_profil{
-	    margin-top:80px;
-	    margin-left: auto;
-	    margin-right: auto;
+	    margin-top:60px;
+	    margin-right: 0px;
 	    text-align: center;
 	    height: auto;
 	    width: 18vh;
+	    vertical-align: center;
+	    float:none;
 	}
+
+
 
 	.fp-next{
 		top: 50vh;
@@ -397,6 +406,7 @@ a, a:hover, a:visited, a:active, a:link{
 	}
 
 	.hello_title{
+		margin: 0px;
 	    font-family: 'Oswald', sans-serif;
 	    font-size: 5.5em;
 	    text-align: center;
@@ -405,12 +415,17 @@ a, a:hover, a:visited, a:active, a:link{
 
 	.hello_profil{
 		margin-top: 80px;
+		margin-right: 0px;
 	    margin-left: auto;
 	    margin-right: auto;
 	    text-align: center;
 	    height: auto;
 	    width: 18vh;
+	    vertical-align: center;
+	    float:none;
 	}
+
+
 
 	.fp-next{
 		top: 50vh;
