@@ -94,12 +94,18 @@ a, a:hover, a:visited, a:active, a:link{
 	}
 
 	.photo_preview_grid{
-		margin-top: 15vh;
+		margin-top: 5vh;
 		margin-left: auto;
 		margin-right: auto;
-		width:84vw;
+		width:90vw;
 	}
 
+	.photo{
+		max-height: 90vh;
+		max-width: 90vw;
+		height: auto;
+		width: auto;
+	}
 
 	.hello_title{
 	    margin-top:15px;
@@ -129,11 +135,11 @@ a, a:hover, a:visited, a:active, a:link{
 
 
 	.fp-next{
-		top: 80vh;
+		top: 95vh;
 	}
 
 	.fp-prev{
-		top: 80vh;
+		top: 95vh;
 	}
 
 }
@@ -214,7 +220,14 @@ a, a:hover, a:visited, a:active, a:link{
 		margin-top: 15vh;
 		margin-left: auto;
 		margin-right: auto;
-		width:84vw;
+		width:85vw;
+	}
+
+	.photo{
+		max-height: 85vh;
+		max-width: 85vw;
+		height: auto;
+		width: auto;
 	}
 
 
@@ -309,7 +322,14 @@ a, a:hover, a:visited, a:active, a:link{
 		margin-top: 15vh;
 		margin-left: auto;
 		margin-right: auto;
-		width:84vw;
+		width:85vw;
+	}
+
+	.photo{
+		max-height: 90vh;
+		max-width: 90vw;
+		height: auto;
+		width: auto;
 	}
 
 
@@ -402,7 +422,9 @@ a, a:hover, a:visited, a:active, a:link{
 		margin-top: 15vh;
 		margin-left: auto;
 		margin-right: auto;
-		width:84vw;
+		width:85vw;
+		padding: 0px !important;
+
 	}
 
 	.hello_title{
@@ -411,6 +433,13 @@ a, a:hover, a:visited, a:active, a:link{
 	    font-size: 5.5em;
 	    text-align: center;
 	    color: white;
+	}
+
+	.photo{
+		max-height: 90vh;
+		max-width: 90vw;
+		height: auto;
+		width: auto;
 	}
 
 	.hello_profil{
@@ -607,7 +636,7 @@ a, a:hover, a:visited, a:active, a:link{
 .cell{
 	overflow: hidden;
 	height:20vh;
-	width: 14vw;
+	
 	display: inline-block;
 }
 
@@ -633,12 +662,7 @@ a, a:hover, a:visited, a:active, a:link{
 
 
 
-.photo{
-	max-height: 80vh;
-	max-width: 80vw;
-	height: auto;
-	width: auto;
-}
+
 
 
 
