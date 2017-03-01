@@ -68,8 +68,7 @@ a, a:hover, a:visited, a:active, a:link{
 	}
 
 	.dropdown_link:hover{
-		background-color:white !important;
-
+		background-color: #222;
 	}
 
 	.link_navbar{
@@ -187,12 +186,11 @@ a, a:hover, a:visited, a:active, a:link{
 
 	.dropdown_link_active{
 
-		background-color: #666
+		background-color: #666;
 	}
 
 	.dropdown_link:hover{
-		background-color:white !important;
-
+		background-color: #222;
 	}
 
 	.home_link{
@@ -644,8 +642,8 @@ a, a:hover, a:visited, a:active, a:link{
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	height: 100%;
-	width: auto;
+	height: auto;
+	width: 100%;
 	-webkit-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);

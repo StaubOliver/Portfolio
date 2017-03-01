@@ -130,7 +130,7 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-slidesNav.bottom {
-    bottom: 17px;
+    bottom: 0px;
 }
 .fp-slidesNav.top {
     top: 17px;
