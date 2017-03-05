@@ -60,7 +60,7 @@ $(document).ready(function() {
 
     var paddingtop = "";
 
-
+    $(window).bind('mousewheel DOMMouseScroll', function(event){ return false});
 
     if ($(window).width() < 768) {
 
@@ -70,7 +70,7 @@ $(document).ready(function() {
         paddingTop: '50px',
         fixedElements: '#header',
         verticalCentered: true, 
-        scrollOverflow: true,
+        scrollOverflow: false,
 
         scrollingSpeed: '0',
         animateAnchor:'false',

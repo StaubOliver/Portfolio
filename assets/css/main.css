@@ -20,7 +20,10 @@ a, a:hover, a:visited, a:active, a:link{
 
 .navlink_active {
 	color: white !important;
+	/*
 	background-color: #666;
+	*/
+	background-color: #1D1D1D;
 }
 
 
@@ -64,11 +67,17 @@ a, a:hover, a:visited, a:active, a:link{
 
 	.dropdown_link_active{
 
+		/*
 		background-color: #666
+		*/
+		background-color: #1D1D1D;
 	}
 
 	.dropdown_link:hover{
+		/*
 		background-color: #222;
+		*/
+		background-color: #666 !important;
 	}
 
 	.link_navbar{
@@ -186,11 +195,17 @@ a, a:hover, a:visited, a:active, a:link{
 
 	.dropdown_link_active{
 
-		background-color: #666;
+		/*
+		background-color: #666
+		*/
+		background-color: #1D1D1D;
 	}
 
 	.dropdown_link:hover{
+		/*
 		background-color: #222;
+		*/
+		background-color: #666 !important;
 	}
 
 	.home_link{
@@ -472,12 +487,18 @@ a, a:hover, a:visited, a:active, a:link{
     display: block;
     width: 100%;
     z-index: 9;
+    /*
     background-color: #444;
+	*/
+	background-color: #1D1D1D;
 }
 
 
 .dropdown-menu{
+	/*
 	background-color: #444;
+	*/
+	background-color: #1D1D1D;
 }
 
 .navlink:hover{
