@@ -71,10 +71,11 @@ $(document).ready(function() {
         fixedElements: '#header',
         verticalCentered: true, 
         scrollOverflow: false,
-
+        scrollBar: false,
+        autoScroll: false,
         scrollingSpeed: '0',
         animateAnchor:'false',
-        slidesNavigation: true,
+        slidesNavigation: 'slides',
         slidesNavPosition: 'bottom',
         onLeave: function(index, nextIndex, direction){
             currentSection = nextIndex;
@@ -93,6 +94,7 @@ $(document).ready(function() {
         touchSensitity:'100'
     });
 
+    $.fn.fullpage.setAllowScrolling(false);
     
 
 });
