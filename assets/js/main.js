@@ -84,14 +84,14 @@ $(document).ready(function() {
         afterLoad: function(anchorLink, index){},
         afterRender: function(){},
         afterResize: function(){
-            console.log($(window).width());
+            //console.log($(window).width());
         },
         afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
         onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){
-            console.log(nextSlideIndex);
+            //console.log(nextSlideIndex);
         }, 
         lazyloading:'true',
-        touchSensitity:'100'
+        touchSensitity:'50'
     });
 
     $.fn.fullpage.setMouseWheelScrolling(false);
