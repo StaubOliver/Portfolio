@@ -95,7 +95,7 @@ $(document).ready(function() {
     });
 
     $.fn.fullpage.setMouseWheelScrolling(false);
-    $.fn.fullpage.setAllowScrolling(false);
+    $.fn.fullpage.setAllowScrolling(false, 'up', 'down');
     
 
 });
