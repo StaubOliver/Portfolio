@@ -70,7 +70,7 @@ $(document).ready(function() {
         paddingTop: '50px',
         fixedElements: '#header',
         verticalCentered: true, 
-        scrollOverflow: false,
+        scrollOverflow: true,
         scrollBar: false,
         autoScroll: false,
         scrollingSpeed: '0',
