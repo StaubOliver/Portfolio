@@ -77,6 +77,7 @@ $(document).ready(function() {
         animateAnchor:'false',
         slidesNavigation: 'slides',
         slidesNavPosition: 'bottom',
+        scrollHorizontally: true,
         onLeave: function(index, nextIndex, direction){
             currentSection = nextIndex;
             refresh();
@@ -95,7 +96,8 @@ $(document).ready(function() {
     });
 
     $.fn.fullpage.setMouseWheelScrolling(false);
-    $.fn.fullpage.setAllowScrolling(false, 'up', 'down');
+    $.fn.fullpage.setAllowScrolling(false, 'up, down');
+    $.fn.fullpage.setAllowScrolling(true, 'left, right');
     
 
 });
