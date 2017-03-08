@@ -94,6 +94,7 @@ $(document).ready(function() {
         touchSensitity:'100'
     });
 
+    $.fn.fullpage.setMouseWheelScrolling(false);
     $.fn.fullpage.setAllowScrolling(false);
     
 
